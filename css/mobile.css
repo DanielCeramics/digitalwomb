@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Danielscript;
+  src: url(Danielscript-Regular.ttf)
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+body p {
+  font-family: Danielscript;
+}
+
+#collage {
+  visibility: hidden;
+  height: 0vh;
+}
+
+
+#rest {
+  height: auto;
+  background-color: black;
+  margin-top: 20vh;
+}
+
+#rest p {
+  color: #f0ea17;
+  font-size: 18pt;
+}
+
+#rest .comboplatter {
+  height: auto;
+}
+
+#credits {
+  flex: 30%;
+}
+
+#player {
+  flex: 40%;
+  margin-left: 5%;
+}
+
+#funlinks {
+  height: auto;
+  position: relative;
+  background-color: #f0ea17;
+  padding: 0;
+  padding-left: 0;
+  width: auto;
+}
+
+.comboplatter {
+  display: block;
+  position: relative;
+}
+
+#funlinks > ul {
+  display: block;
+  margin: auto;
+  padding: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+#funlinks a {
+  font-size: 3vw;
+}
+
+.funlink {
+  margin: auto;
+  width: 50vw;
+}
+
+#funlinks > p {
+  color: black;
+  padding: 0;
+  text-align: center;
+}
+
+#mobilewarning {
+  visibility: visible;
+  background: #e58ae5;
+  margin: auto;
+  text-align: center;
+}
