@@ -161,6 +161,17 @@ a:hover {
   margin-top: 20vh;
 }
 
+#totherest {
+  font-size: 1.5vw;
+  text-align: center;
+  width: 15vw;
+  margin: auto;
+  margin-top: 2vw;
+  display: block;
+  color: black;
+  background-color: #f0ea17;
+}
+
 #rest p {
   color: #f0ea17;
   font-size: 18pt;
