@@ -8,10 +8,11 @@ html {
 }
 
 #collagebg {
-  height: 100vh;
+  height: 85vh;
   position: absolute;
   width: 100vw;
   z-index: -1;
+  overflow: hidden;
 }
 
 #collagebg img {
@@ -165,9 +166,10 @@ a:hover {
   font-size: 1.5vw;
   text-align: center;
   width: 15vw;
-  margin: auto;
-  margin-top: 2vw;
+  position: relative;
   display: block;
+  margin: auto;
+  margin-right: 0;
   color: black;
   background-color: #f0ea17;
 }
